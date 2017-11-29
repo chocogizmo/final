@@ -1,5 +1,4 @@
 body {
-	background-color: black;
 	margin: 0px;
 }
 
@@ -77,16 +76,25 @@ div {
 	right: 0;
 }
 
-#left p{
-	float: left;
-	margin-left: 50px;
-	color: white;
+#contact ul{
+   list-style-type: none;
+	background-color: #333;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+   
+#contact ul li{
+   float: left;
+   color: white;
+   text-align: center;
+   padding: 16px 70px 16px;
+   text-decoration: none;
+   border-right: 1px solid #bbb;
 }
 
-#right p{
-	float: right;
-	margin-right: 50px;
-	color: white;
+#contact ul li:last-child {
+    border-right: none;
 }
 
 
