@@ -1,5 +1,5 @@
 body {
-	
+	background-color: black;
 }
 
 div {
@@ -13,12 +13,12 @@ div {
 	margin-right:  -20px;
 
 	}
-
-#top{
-	height: 104px;
-	border-style: solid;
-	border-color: black;
+	
+#top
+{
+	height: 120px;
 }
+
 #top img{
 		float: left;
 		width: 200px;
@@ -28,6 +28,7 @@ div {
 #top p{
 		float: right;
 		margin-right: 20px;
+		color: white;
 		}
 		
 
@@ -60,9 +61,8 @@ div {
 
 
 #block img{
-	width: 500px;
+	width: 100%;
 	height: 400px;
-	margin-left: 400px;
 	padding: 20px 20px 20px 20px;
 	}
 
@@ -72,16 +72,19 @@ div {
 	height: 69px;
 	border-style: solid;
 	border-color: black;
+	background-color: #333;
 }
 
 #left p{
 	float: left;
 	margin-left: 50px;
+	color: white;
 }
 
 #right p{
 	float: right;
 	margin-right: 50px;
+	color: white;
 }
 
 
