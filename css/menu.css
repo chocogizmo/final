@@ -1,0 +1,29 @@
+.block{
+}
+
+#left {
+	float: left;
+	border-style: solid;
+	border-color: black;
+	width: 400px;
+	height: 375px;
+	margin-bottom: 50px;
+}
+		
+#right {
+	float: right;
+	border-style: solid;
+	border-color: black;
+	width: 400px;
+	height: 375px;
+	
+}
+
+#middle {
+	float: center;
+	border-style: solid;
+	border-color: black;
+	width: 400px;
+	height: 375px;
+	
+}
