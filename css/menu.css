@@ -1,29 +1,41 @@
-.block{
+.block {
+	background-color: rgba(0, 0, 0, .5)
 }
+ h1 {
+	font-family: 'Spectral SC', serif;
+	margin: 0 0 0 20px;
+}
+
+p {
+	margin: 10px 20px 0 20px;
+}
+
+
 
 #left {
 	float: left;
 	border-style: solid;
 	border-color: black;
-	width: 400px;
+	width: 31%;
 	height: 375px;
-	margin-bottom: 50px;
+	margin: 30px 7px 100px 10px;
 }
 		
 #right {
-	float: right;
+	float: left;
 	border-style: solid;
 	border-color: black;
-	width: 400px;
+	width: 31%;
 	height: 375px;
-	
+	margin: 30px 7px 100px 10px;
 }
 
 #middle {
-	float: center;
+	float: left;
 	border-style: solid;
 	border-color: black;
-	width: 400px;
+	width: 31%;
 	height: 375px;
-	
+	margin: 30px 7px 100px 10px;
+
 }
