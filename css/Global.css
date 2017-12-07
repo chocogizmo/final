@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	background-image: url("images/background.jpg");
+	background-image: url(../images/background.jpg);
 }
 
 div {
@@ -10,17 +10,19 @@ div {
 }
 .header {
 	position: relative;
-	margin-top: 20px;
-
+	background-color: #333;
+	opacity: 0.8;
 	}
 	
 #top
 {
 	height: 120px;
+	margin-top: 20px;
 }
 
 #top-left img{
 		float: left;
+		margin-top: 20px;
 		width: 200px;
 		height: 100px;
 		display: block;
@@ -29,6 +31,7 @@ div {
 #top-right img{
 		float: right;
 		display: block;
+		margin-top: 20px;
 		margin-right: 20px;
 		width: 50px;
 		height: 50px;
@@ -39,12 +42,12 @@ div {
 		
 #navigation{
 	clear: both;
-	background-color: #333;
+	background-color: black;
 	text-align: center;
 }
 #navigation ul{
 	list-style-type: none;
-	background-color: #333;
+	background-color: black;
 	overflow: hidden;
 	margin: 0px;
 	padding: 0px;
