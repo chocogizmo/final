@@ -81,14 +81,16 @@ div {
 
 .footer{
 	/* height: 69px; */
+	vertical-align: middle;
 	background-color: #333;
 	opacity: 0.8;
-    bottom: 0;
+	bottom: 0;
 	left: 0;
 	right: 0;
 	clear: both;
-	position: static;
+	position: fixed;
 	margin-top: 150px;
+	margin-bottom: 0px;
 }
 
 #contact ul{
@@ -109,9 +111,9 @@ div {
    padding: 16px 70px 16px;
    text-decoration: none;
    border-right: 1px solid #bbb;
+   margin-bottom: 10px;
 }
 
 #contact ul li:last-child {
     border-right: none;
 }
-
