@@ -91,12 +91,14 @@ div {
 	padding-bottom: 20px;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	display: block;
 }
 
 #email input {
 	width: 450px;
 	margin-left: 25px;
-	
+	margin-bottom: 5px;	
+	vertical-align: center;
 }
 
 .footer {
