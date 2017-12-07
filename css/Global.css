@@ -82,24 +82,8 @@ div {
 	height: 100%;
 }
 
-#email {
-	margin: auto;
-	height: 20px;
-	width: 500px;
-	background-color: black;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	display: block;
-}
 
-#email input {
-	width: 450px;
-	margin-left: 25px;
-	margin-bottom: 5px;	
-	vertical-align: center;
-}
+
 
 .footer {
 	vertical-align: middle;
